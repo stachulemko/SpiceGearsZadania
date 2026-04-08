@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner k = new Scanner(System.in);
+        int l1 = k.nextInt();
+        int l2 = k.nextInt();
+        
+        System.out.print(l1 / (l2 * l2));
+        k.close();
+    }
+}
